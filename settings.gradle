@@ -1,1 +1,9 @@
 rootProject.name = 'moviefun'
+
+println("Building application first")
+
+include "applications:movie-fun-app"
+
+println("Now calling components")
+include "components:movies"
+include "components:albums"
